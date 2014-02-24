@@ -1284,7 +1284,10 @@ nl:
       email:
         title: E-mail
         settings: Instellingen
-        logs: Log
+        all: Alles 
+        sent: Verzonden
+        skipped: Niet verzonden
+	logs: Log
         sent_at: Verzonden op
         user: Gebruiker
         email_type: E-mailtype
@@ -1497,6 +1500,7 @@ nl:
           posting: Schrijven
           email: E-mail
           files: Bestanden
+          legal: Voorwaarden
           trust: Trustlevels
           security: Beveiliging
           seo: SEO
