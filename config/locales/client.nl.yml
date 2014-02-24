@@ -248,6 +248,10 @@ nl:
       tracked_categories_instructions: "Je zal automatisch van alle nieuwe en bestaande topics zien of er nieuwe berichten zijn"
       muted_categories: "Genegeerd"
       muted_categories_instructions: "Je zal geen notificaties krijgen over nieuwe topics en berichten in deze categoriën"
+      unread_message_count:
+        one: "1 Bericht"
+        other: "{{count}} Berichten"
+        zero: "Berichten"
 
       messages:
         all: Alle
@@ -735,6 +739,10 @@ nl:
         muted:
           title: "Negeren"
           description: "je zal geen notificaties krijgen voor deze topic en het zal ook niet verschijnen in je 'ongelezen'-tab."
+        flag_topic:
+          title: 'Meld'
+          help: 'Meld dit bericht aan een moderator.'
+          success_message: 'Je melding is ontvangen.'
 
       actions:
         recover: Herstel topic
