@@ -1295,7 +1295,7 @@ nl:
         all: Alles 
         sent: Verzonden
         skipped: Niet verzonden
-	logs: Log
+        logs: Log
         sent_at: Verzonden op
         user: Gebruiker
         email_type: E-mailtype
