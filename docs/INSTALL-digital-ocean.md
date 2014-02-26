@@ -65,8 +65,6 @@ Finish installing Docker:
 
     sudo wget -qO- https://get.docker.io/ | sh
 
-<img src="https://meta-discourse.r.worldssl.net/uploads/default/3004/e75967a1a8e27ea3.png" width="567" height="307"> 
-
 # Install Discourse
 
 Create a `/var/docker` folder where all the Docker related stuff will reside:
@@ -99,7 +97,7 @@ Edit as desired, but at minimum set `DISCOURSE_DEVELOPER_EMAILS` and `DISCOURSE_
 
 <img src="https://meta-discourse.r.worldssl.net/uploads/default/2979/e6fedbde9b471880.png" width="565" height="172"> 
 
-I renamed `DISCOURSE_HOSTNAME` to `discourse.techapj.com`, this means that I want to host my instance of Discourse on `http://discourse.techapj.com/`. You'll need to modify your DNS records to reflect the IP address and preferred URL address of your server.
+We renamed `DISCOURSE_HOSTNAME` to `discourse.techapj.com`, this means that we want to host our instance of Discourse on `http://discourse.techapj.com/`. You'll need to modify your DNS records to reflect the IP address and preferred URL address of your server.
 
 # Mail Setup
 
