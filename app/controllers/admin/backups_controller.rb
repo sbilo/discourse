@@ -135,7 +135,7 @@ class Admin::BackupsController < Admin::AdminController
   private
 
   def has_enough_space_on_disk?(size)
-    `df -l . | tail -1 | tr -s ' ' | cut -d ' ' -f 4`.to_i > size
+    `df -Pk . | awk 'NR==2 {print $4 * 1024;}'`.to_i > size
   end
 
 end
