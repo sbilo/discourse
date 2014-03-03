@@ -1271,6 +1271,58 @@ nl:
         all_users: Alle gebruikers
         note_html: "Houd deze key <strong>geheim</strong>, gebruikers die deze key hebben kunnen zich als elke andere gebruiker voordoen op het forum en topics aanmaken."
 
+      backups:
+        title: "Backups"
+        menu:
+          backups: "Backups"
+          logs: "Logs"
+        none: "Geen backup beschikbaar."
+        read_only:
+          enable:
+            title: "Read-only modus activeren"
+            text: "Read-only modus activeren"
+            confirm: "Are you sure you want to enable the read-only mode?"
+          disable:
+            title: "Read-only modus deactiveren"
+            text: "Read-only modus deactiveren"
+        logs:
+          none: "Geen logs..."
+        columns:
+          filename: "Bestandsnaam"
+          size: "Size"
+        upload:
+          text: "UPLOAD"
+          uploading: "UPLOADING"
+          success: "'{{filename}}' has successfully been uploaded."
+          error: "There has been an error while uploading '{{filename}}': {{message}}"
+        operations:
+          is_running: "An operation is currently running..."
+          failed: "The {{operation}} failed. Please check the logs."
+          cancel:
+            text: "Cancel"
+            title: "Cancel the current operation"
+            confirm: "Are you sure you want to cancel the current operation?"
+          backup:
+            text: "Backup"
+            title: "Create a backup"
+            confirm: "Are you sure you want to start a new backup?"
+          download:
+            text: "Download"
+            title: "Download the backup"
+          destroy:
+            text: "Delete"
+            title: "Remove the backup"
+            confirm: "Are you sure you want to destroy this backup?"
+          restore:
+            is_disabled: "Restore is disabled in the site settings."
+            text: "Restore"
+            title: "Restore the backup"
+            confirm: "Are your sure you want to restore this backup?"
+          rollback:
+            text: "Rollback"
+            title: "Rollback the database to previous working state"
+            confirm: "Are your sure you want to rollback the database to the previous working state?"
+
       customize:
         title: Aanpassingen
         long_title: Aanpassingen aan de site
